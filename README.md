@@ -1,6 +1,6 @@
 # Parcial2 
 
-Estructura del proyecto 
+##Estructura del proyecto 
 
 ```text
 📦 Parcial2/
@@ -26,6 +26,13 @@ Estructura del proyecto
 ├── 📄 requirements.txt                  # Dependencias
 └── 📄 README.md                         # Guía básica del proyecto
 ```
+
+##Diseño del Grafo
+```text
+(Usuario)-[COMPRADO_POR]->(Producto)-[PERTENECE_A]->(Categoría)
+(Producto)-[SIMILAR_A {peso: float}]->(Producto)
+```
+
 ## Requisitos
 - Neo4j Desktop 4.4+
 - Python 3.8+

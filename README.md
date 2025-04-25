@@ -1,11 +1,11 @@
-# Parcial2
+# Parcial2 
 
 Estructura del proyecto 
 
 ```text
 📦 Parcial2/
 ├── 📂 datos/
-│   ├── 📄 productos.csv                 # Dataset principal
+│   ├── 📄 productos.csv                 # Dataset
 │   └── 📄 datos_ejemplo.json            # Opcional: versión JSON del dataset
 ├── 📂 docs/
 │   ├── 📄 informe.pdf                   # Documento formal del proyecto
@@ -26,4 +26,16 @@ Estructura del proyecto
 ├── 📄 requirements.txt                  # Dependencias
 └── 📄 README.md                         # Guía básica del proyecto
 ```
+## Requisitos
+- Neo4j Desktop 4.4+
+- Python 3.8+
+- Bibliotecas: `py2neo pandas python-dotenv`
 
+## Configuración
+1. Renombrar `.env.example` a `.env` y configurar credenciales
+2. Ejecutar `pip install -r requirements.txt`
+3. Iniciar Neo4j Desktop y crear base de datos
+
+## Ejecución
+```bash
+python src/main.py

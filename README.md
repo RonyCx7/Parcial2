@@ -1,7 +1,8 @@
 # Parcial2
 
 Estructura del proyecto 
-'📦 Parcial2/
+''''
+📦 Parcial2/
 ├── 📂 datos/
 │   ├── 📄 productos.csv                 # Dataset principal
 │   └── 📄 datos_ejemplo.json            # Opcional: versión JSON del dataset
@@ -22,4 +23,5 @@ Estructura del proyecto
 │   └── 📄 main.py                       # Punto de entrada
 ├── 📄 .gitignore                        # Archivos a ignorar en Git
 ├── 📄 requirements.txt                  # Dependencias
-└── 📄 README.md                         # Guía básica del proyecto'
+└── 📄 README.md                         # Guía básica del proyecto
+'''

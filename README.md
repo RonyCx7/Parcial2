@@ -1,7 +1,8 @@
 # Parcial2
 
 Estructura del proyecto 
-''''
+
+```text
 📦 Parcial2/
 ├── 📂 datos/
 │   ├── 📄 productos.csv                 # Dataset principal
@@ -24,4 +25,5 @@ Estructura del proyecto
 ├── 📄 .gitignore                        # Archivos a ignorar en Git
 ├── 📄 requirements.txt                  # Dependencias
 └── 📄 README.md                         # Guía básica del proyecto
-'''
+```
+
